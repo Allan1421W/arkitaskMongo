@@ -1,0 +1,105 @@
+use("ARKITASK");
+/*db.Usuario.insertOne({
+    idUsuario: "1",
+    usNombre: "Allan",
+    usApellido: "Barreto",
+    usEmail: "asbarreto83@soy.sena.edu.co",
+    usNumeroDocumento: "1021668438",
+    usFechaNacimiento: "05-04-2005",
+    usTelefono: "31230928817",
+    usPassword: "alcantarilla18273",
+    usEstado: "True",
+    usImagen: "askdjslad"
+});*/
+
+/*db.asignarRol.insertOne({
+    idAsigRol: "1",
+    idUsuario: "1",
+    idRol: "1",
+});*/
+
+/*db.rol.insertOne({
+    idRol: "1",
+    roNombreRol: "Gerente"
+});*/
+
+/*db.catalogo.insertOne({
+    idCatalogo: "1",
+    caNombreParticipantes: "Allan, Julio, Andrea",
+    caEmpresa: "AzulK",
+    caArea: "Admin"
+});*/
+
+/*db.encargadoProyecto.insertOne({
+    poFechIni: "10-05-2023",
+    poFechFin: "15-05-2023",
+    poObervaciones: "Ninguna",
+    poIdProyecto: "1",
+    poIdUsuario: "1"
+})*/
+
+/*db.proyecto.insertOne({
+    idProyecto: "23",
+    prNombrePr: "Apartamentos",
+    prFechRealizacion: "15-02-2023",
+    prCodPr: "8972",
+    prFechEntrega: "15-05-2023",
+    prEstado: "True",
+    prDescripcion: "Ninguna",
+    prIdCatalogo: "1",
+    prIdGrupo: "1",
+    prIdTipoPr: "1"
+})*/
+
+/*db.imagen.insertOne({
+    idImagen: "1",
+    imURL: "https://asjndkakdj.com",
+    imIdCatalogo: "1"
+})*/
+
+/*db.asistencia.insertOne({
+    idAsistencia: "1",
+    asFechIngreso: "15-05-2023",
+    asHoraIngreso: "9:16 a.m",
+    asFechSalida: "15-05-2023",
+    asHoraSalida: "6:30 p.m",
+    asIdUsuario: "1"
+})*/
+
+/*db.seguimientoProyecto.insertOne({
+    idSeguimiento: "4",
+    seIdUsuario: "1",
+    seIdGrupo: "1",
+    seIdActi: "1"
+})*/
+
+/*db.grupoTrabajo.insertOne({
+    idGrupo: "1",
+    grCodGrupo: "1",
+    grFechInicio: "12-04-2023",
+    grFechDesactivacion: "15-05-2023"
+})*/
+
+/*db.tipoProyecto.insertOne({
+    idTipoPr: "1",
+    tpNombre: "Construccion"
+})*/
+
+/*db.actividades.insertOne({
+    idActividad: "1",
+    acNombre: "Construir bases",
+    acDescrip: "Ninguna",
+    acFechPublicacion: "20-03-2023",
+    acFechEntrega: "15-05-2023",
+    acEstado: "True",
+    acIdProyecto: "1"
+})*/
+
+db.archivosSolucion.insertOne({
+    idArch: "1",
+    arIdUsuario: "1",
+    arIdActvidad: "1",
+    arFechEntrega: "13-05-2023",
+    arURL: "https://ajsndkjaskd.com",
+    arEstado: "True" 
+})
